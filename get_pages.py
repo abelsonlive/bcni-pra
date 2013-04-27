@@ -3,7 +3,7 @@ from selenium import webdriver
 import time
 URL = "http://secure.phila.gov/paplpublicweb/GridView.aspx"
 
-b = selenium.webdriver.Firefox()
+b = webdriver.Firefox()
 b.get(URL)
 
 for i in range(2, 806):
